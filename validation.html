@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type = "text/css" href="myCss.css">
+
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="vdata">
+                <span class="namefield">Your ID:</span><input type="text" id="urname">
+                <span class="checkfeed" id="urnamefeed"></span>
+            </div>
+            <div class="vdata">
+                <span class="namefield">Password:</span><input type="text" id="urpassword">
+                <span class="checkfeed" id="urpasswordfeed"></span>
+            </div>
+            <div class="vdata">
+                <span class="namefield">Confirm Password:</span><input type="text" id="checkpassword">
+                <span class="checkfeed" id="checkpwfeed"></span>
+            </div>
+            <div class="vdata">
+                <span class="namefield">Gender:</span>
+                <input type="radio" name="gender" value="male" checked="checked"> 남자
+                <input type="radio" name="gender" value="female"> 여자
+                <span class="checkfeed" id="genderfeed"></span>
+            </div>
+            <button type="button" onclick="validate()">VALIDATE!</button>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
